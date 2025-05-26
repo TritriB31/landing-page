@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Connexion</title>
-</head>
+<head><title>Page de connexion</title></head>
 <body>
-	<form action="/post" method="post" name="form">
-		<label>Nom d'utilisateur:</label> <input type="text" name="username" /><br/>
-		<label>Mot de passe:</label> <input type="password" name="password" /><br/>
-		<input id="login" type="submit" value="Se connecter" />
-	</form>
+  <form action="http://127.0.0.1:3333/post" method="post" name="form">
+    <label>Nom d'utilisateur:</label> <input type="text" name="username" /><br/>
+    <label>Mot de passe:</label> <input name="password" type="password"/><br/>
+    <input id="login" type="submit" value="Se connecter"/>
+  </form>
 </body>
 </html>
 
